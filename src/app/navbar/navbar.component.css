@@ -1,0 +1,63 @@
+.btn, .dropdown-item, h2
+{
+    font-family : 'Optimus';
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+/*.btn:active, .btn:focus, .btn:active:focus, .btn:focus:active, .btn-link:active, .btn-link:focus, .btn-link:active:focus, .btn-link:focus:active
+{
+    outline : none !important;
+    box-shadow: none !important;
+    border : none !important;
+}*/
+
+.nav-link {
+   padding: 0;
+}
+.bg-black {
+    background-color: #000;
+    transition : all 1s ease-in;
+}
+
+.bg-black:hover {
+    opacity: 1;
+}
+
+.dropdown-item:hover {
+    background-color: #FFF;
+}
+
+.btn
+{
+    font-size : 1.2vw;
+    color : white;
+    border-radius : 0px;
+    text-decoration : none;
+}
+
+.btn:hover
+{
+    background-color : #EEE;
+    /*border : 1px solid #FF0;*/
+    /*height : 100%;*/
+    text-decoration : none;
+    color : black;
+    border-radius : 0px;
+
+    transition : all 0.3s;
+}
+
+.navbar img
+{
+    cursor : pointer;
+}
+
+@media (max-width: 768px) {
+    .btn:hover
+    {
+        background-color : white;
+    }
+}

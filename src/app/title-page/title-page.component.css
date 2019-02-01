@@ -1,0 +1,44 @@
+.carousel
+{
+    /*position : absolute;*/
+    /*clip : rect(0px, 100%, 500px, 0px);*/
+    height : 100vh;
+    overflow:hidden;
+}
+
+.carousel-caption
+{
+    top: 0;
+    bottom: auto;
+}
+
+@media only screen and (max-width: 576px) {
+   .carousel
+   {
+       /*position : absolute;*/
+       /*clip : rect(0px, 100%, 500px, 0px);*/
+       height : 55vh;
+       overflow:hidden;
+   }
+}
+
+#displayText
+{
+    position : absolute;
+    /*top : 0;*/
+    z-index : 1;
+    font-size : 0.9em;
+}
+
+.carousel img[src="assets/chargement.gif"]
+{
+    height : 100vh;
+}
+
+@media screen and (orientation: portrait) {
+    .carousel 
+    {
+        height : 55vh;
+        overflow:hidden;
+    }
+  }
